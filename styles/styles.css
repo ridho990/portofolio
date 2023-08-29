@@ -37,6 +37,10 @@ a {
 	flex-direction: row;
 }
 
+.hidden {
+	display: none;
+}
+
 /* .img-con-recent img:hover,
 .img-card-project img:hover {
 	transform: scale(1.1);
@@ -131,7 +135,8 @@ h1 {
 	width: 95%;
 }
 
-.ws-left button {
+.ws-left button,
+.btn-view {
 	padding: 0.8rem 1.25rem;
 	font-size: 1.125rem;
 	color: white;
@@ -308,6 +313,17 @@ h2 {
 .image-logo img {
 	height: 2rem;
 	margin-right: 0.8rem;
+}
+
+.button-wrapper {
+	margin-top: 1.75rem;
+	width: 100%;
+	text-align: center;
+}
+
+.btn-view {
+	font-size: 1rem;
+	padding: 0.7rem 1rem;
 }
 
 /* sertifikat */
