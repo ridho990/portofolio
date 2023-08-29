@@ -272,11 +272,11 @@ h2 {
 	font-size: 1.75rem !important;
 }
 
-.year {
+.type-project {
 	margin-right: 1rem;
 	color: white;
 	font-size: 1rem !important;
-	font-weight: 800;
+	font-weight: 700;
 	padding: 8px 15px;
 	background-color: #142850;
 	border-radius: 50px;
@@ -286,14 +286,8 @@ h2 {
 	-o-border-radius: 50px;
 }
 
-.type {
-	font-size: 1rem !important;
-	color: #8695a4;
-	font-weight: 500;
-}
-
 .desc-project {
-	margin-top: 1.125rem;
+	margin-top: 0.8rem;
 	font-size: 1.125rem;
 	line-height: 1.7rem !important;
 	font-weight: 500;
@@ -305,6 +299,15 @@ h2 {
 	margin-right: 1.75rem;
 	object-fit: contain;
 	border: 1px solid rgba(0, 0, 0, 0.096);
+}
+
+.image-logo {
+	align-items: center;
+}
+
+.image-logo img {
+	height: 2rem;
+	margin-right: 0.8rem;
 }
 
 /* sertifikat */
@@ -482,6 +485,11 @@ input:last-of-type {
 		margin-bottom: 1.5rem;
 	}
 
+	.card-project .image-logo,
+	.card-project .year-n-image.flex {
+		flex-direction: row;
+	}
+
 	#contact {
 		padding-top: 3rem;
 		padding-bottom: 4rem;
@@ -514,5 +522,15 @@ input:last-of-type {
 
 	.fa:nth-last-of-type(4) {
 		margin-right: 0;
+	}
+}
+
+@media (max-width: 431px) {
+	.type-project {
+		font-size: 0.85rem !important;
+	}
+
+	.image-logo img {
+		height: 1.5rem;
 	}
 }
