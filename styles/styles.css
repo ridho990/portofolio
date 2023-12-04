@@ -12,11 +12,11 @@ h2,
 h3,
 h4,
 h5 {
-	font-family: "Poppins", sans-serif !important;
+	font-family: 'Poppins', sans-serif !important;
 }
 
 p {
-	font-family: "Quicksand", sans-serif !important;
+	font-family: 'Quicksand', sans-serif !important;
 }
 
 .p-rm-mr {
@@ -361,7 +361,7 @@ input {
 	width: 30.75rem;
 	outline: none;
 	border: 1.5px solid #14285089;
-	font-family: "Quicksand", sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 1rem;
 	font-weight: 500;
 	border-radius: 0.5rem;
@@ -536,7 +536,7 @@ input:last-of-type {
 		margin-right: 2rem;
 	}
 
-	.fa:nth-last-of-type(4) {
+	.last-fa {
 		margin-right: 0;
 	}
 }
